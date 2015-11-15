@@ -1,0 +1,20 @@
+{application, hooxy, [
+        {description, "A reverse-proxy that translates a domain into an IP address given user defined hooks."},
+        {vsn, "0.1.0"},
+        {registered, []},
+        {mod, {hooxy_app, []}},
+        {applications, [
+                kernel,
+                stdlib,
+                lager,
+                vegur,
+                inets,
+                ssl,
+                lrw
+        ]},
+        {env,[]},
+        {modules, []},
+        {contributors, []},
+        {licenses, []},
+        {links, []}
+]}.
